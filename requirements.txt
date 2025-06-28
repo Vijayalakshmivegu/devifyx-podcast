@@ -1,0 +1,10 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+openai==1.12.0
+pdfminer.six==20240320
+tenacity==8.2.3
+structlog==24.1.0
+python-dotenv==1.0.0
+keybert
+pytest
+httpx

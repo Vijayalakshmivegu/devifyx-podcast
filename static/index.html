@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Podcast Summary & Tag Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Main Glass Card Container -->
+  <div class="container glass-card">
+    <div class="logo-bar">
+      <img src="/static/devifyx-logo.png" alt="DevifyX Logo" class="devifyx-logo">
+    </div>
+    <form id="uploadForm">
+      <label>Transcript File (.txt or .pdf):</label>
+      <input type="file" name="file" required><br>
+      <label>Language:</label>
+      <input type="text" name="language" value="en"><br>
+      <label>Summary Length:</label>
+      <input type="number" name="summary_length" value="150"><br>
+      <button type="submit">Get Summary</button>
+    </form>
+    <form id="textForm">
+      <label>Text Script (Paste transcript text):</label>
+      <textarea name="content" rows="6" placeholder="Paste your transcript here..." required></textarea><br>
+      <label>Language:</label>
+      <input type="text" name="language" value="en"><br>
+      <label>Summary Length:</label>
+      <input type="number" name="summary_length" value="150"><br>
+      <button type="submit">Get Summary</button>
+    </form>
+    <h3>Summary</h3>
+    <div id="result" class="result-box" style="display:none;"></div>
+</div>
+  <div class="ad-banner">
+    <span>⚡ Try DevifyX Pro for advanced podcast analytics! <a href="#">Learn more</a></span>
+  <script src="/static/app.js"></script>
+  <svg class="bg-blob" viewBox="0 0 200 200">
+    <defs>
+      <radialGradient id="grad1" cx="50%" cy="50%" r="80%">
+        <stop offset="0%" style="stop-color:#3ba3fc;stop-opacity:0.25" />
+        <stop offset="100%" style="stop-color:#1e2746;stop-opacity:0" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="100" cy="100" rx="100" ry="80" fill="url(#grad1)">
+      <animate attributeName="rx" values="100;120;100" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="80;100;80" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+  </svg>
+</body>
+</html>

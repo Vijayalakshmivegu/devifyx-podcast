@@ -1,0 +1,2 @@
+Artificial intelligence (AI) is transforming industries by automating tasks and improving decision-making. 
+Machine learning, a subset of AI, enables systems to learn from data without explicit programming.
