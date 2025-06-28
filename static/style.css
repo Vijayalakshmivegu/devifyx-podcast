@@ -277,3 +277,23 @@ a:hover {
   font-weight: 500;
   box-shadow: 0 1px 4px rgba(37,99,235,0.08);
 }
+
+.main-title {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #22223b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.mic-icon {
+  vertical-align: middle;
+  margin-right: 6px;
+  height: 28px;
+  width: 28px;
+  filter: drop-shadow(0 0 6px #2563eb44);
+}
